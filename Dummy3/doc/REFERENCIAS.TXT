@@ -1,0 +1,9 @@
+Herramientas y bibliotecas externas usadas en el desarrollo de la práctica:
+- Blender para la animación del modelo 3D utilizado. Descargado de https://www.blender.org/download/
+- THREEx.keyboardstate para la gestión de los eventos de teclado. Descargado de https://github.com/jeromeetienne/threex.keyboardstate
+- Modelo del personaje en escena. Descargado de https://sketchfab.com/3d-models/mannequin-female-5e9898a1ac2048d89fbcdfdb55f8c6b0
+- Biblioteca GLTFLoader para importar modelos en formato gltf. Ha sido descargada de https://github.com/mrdoob/three.js/blob/dev/examples/jsm/loaders/GLTFLoader.js. Ha sido adaptada para funcionar en nuestro proyecto.
+- Textura del suelo descargada de https://3djungle.net/textures/ground/1590/
+- Biblioteca para supervisar el rendimiento de la aplicación. Descargada de https://github.com/mrdoob/three.js/blob/dev/examples/jsm/libs/stats.module.js.
+- Textura de las nubes, sacada de los recursos de la asignatura.
+- Música de fondo: Dreamland, de Decepticons (canal Royalty Free Planet en Youtube). Enlace a la canción en https://www.youtube.com/watch?v=o70_E7oq0pE.

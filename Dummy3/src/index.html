@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Dummy 3</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="../libs/three.js"></script>
+    <script type="text/javascript" src="../libs/three.module.js"></script>
+    <script type="text/javascript" src="../libs/three.min.js"></script>
+    <script type="text/javascript" src="../libs/jquery.js"></script>
+    <script type="text/javascript" src="../libs/dat.gui.js"></script>
+    <script type="text/javascript" src="../libs/stats.module.js"></script>
+    <script type="text/javascript" src="../libs/GLTFLoader.js"></script>
+    <script type="text/javascript" src="../libs/Tween.js"></script>
+    <script type="text/javascript" src="../libs/threex.keyboardstate.js"></script>
+    <script type="text/javascript" src="MyModel.js"></script>  
+    <script type="text/javascript" src="MyBoxCollider.js"></script>   
+    <script type="text/javascript" src="MyScene.js"></script>    
+    <style>
+        body{
+            margin: 0;
+            overflow: hidden; 
+        }
+        .overlay {
+            pointer-events:none;
+            position:fixed;
+            top:0;
+            bottom:0;
+            left:0;
+            right:0;
+            background-color:#000;
+            opacity:0.0;
+            z-index:1001;
+        }
+    </style>
+</head>
+<body>
+    <!-- Div which will hold the Output -->
+    <div id="WebGL-output">
+        <audio id="musicaFondo" src="../music/decepticons-dreamland-electro-rock-from-royalty-free-planet.mp3" autoplay></audio> -->
+        <div class="overlay" id="pauseScreen"></div>
+    </div>
+</body>
+</html>
